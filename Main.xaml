@@ -1,0 +1,218 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="961.1428571428571,1284" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.PDF.ExtractPDFText</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.PDF</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="884.5714285714286,1218.857142857143" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Out_PDF" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Perfect Match.pdf - Adobe Acrobat Reader (64-bit)" sap:VirtualizedContainerService.HintSize="822.8571428571429,1108.5714285714287" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Always" ScopeGuid="306d9a9e-7882-4426-af7f-df59ceabda70" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="788.5714285714286,809.7142857142857" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="In_BillTo" />
+              <Variable x:TypeArguments="ui:GenericValue" Name="In_Date" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:AnchorBase AnchorPosition="Left" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="726.8571428571429,200" sap2010:WorkflowViewState.IdRef="AnchorBase_2">
+              <ui:AnchorBase.Action>
+                <ActivityAction x:TypeArguments="ui:Anchor">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
+                  </ActivityAction.Argument>
+                  <ui:FindRelative DisplayName="Find Relative Element 'text  6/6/2016'" sap:VirtualizedContainerService.HintSize="334.2857142857143,106.85714285714286" sap2010:WorkflowViewState.IdRef="FindRelative_1" RelativeElement="[In_Date]">
+                    <ui:FindRelative.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:FindRelative.CursorPosition>
+                    <ui:FindRelative.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1be8feba-123d-43a5-9ae3-4a9320c15398" InformativeScreenshot="13f5f9acc77d597eb3e60571e78a624b" Selector="&lt;ctrl role='text' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:FindRelative.Target>
+                  </ui:FindRelative>
+                </ActivityAction>
+              </ui:AnchorBase.Action>
+              <ui:AnchorBase.AnchorProvider>
+                <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'text  DATE'" sap:VirtualizedContainerService.HintSize="334.2857142857143,106.85714285714286" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_3">
+                  <ui:WaitUiElementAppear.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3c9add39-decf-4138-a51d-fdf2075b5169" InformativeScreenshot="c2290cb2d08d80c26614a64dc7fb9d16" Selector="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl idx='3' role='row' /&gt;&lt;ctrl name='DATE' role='text' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:WaitUiElementAppear.Target>
+                </ui:WaitUiElementAppear>
+              </ui:AnchorBase.AnchorProvider>
+            </ui:AnchorBase>
+            <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="726.8571428571429,200" sap2010:WorkflowViewState.IdRef="AnchorBase_3">
+              <ui:AnchorBase.Action>
+                <ActivityAction x:TypeArguments="ui:Anchor">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
+                  </ActivityAction.Argument>
+                  <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'text  IDES AG Frankfurt'" FoundElement="[In_BillTo]" sap:VirtualizedContainerService.HintSize="334.2857142857143,106.85714285714286" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5">
+                    <ui:WaitUiElementAppear.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8316496e-eaac-4ea3-a7a9-0f1bcb46bfc5" InformativeScreenshot="24a973fe00a48172d1914277c3e59dab" Selector="&lt;ctrl role='text' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:WaitUiElementAppear.Target>
+                  </ui:WaitUiElementAppear>
+                </ActivityAction>
+              </ui:AnchorBase.Action>
+              <ui:AnchorBase.AnchorProvider>
+                <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'text  BILL TO'" sap:VirtualizedContainerService.HintSize="334.2857142857143,106.85714285714286" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_4">
+                  <ui:WaitUiElementAppear.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f426ee91-a699-4af2-8b39-6416813f8739" InformativeScreenshot="803ff319956f460028b5e57966372798" Selector="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl idx='9' role='row' /&gt;&lt;ctrl name='BILL TO' role='text' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:WaitUiElementAppear.Target>
+                </ui:WaitUiElementAppear>
+              </ui:AnchorBase.AnchorProvider>
+            </ui:AnchorBase>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="726.8571428571429,87.42857142857143" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[In_BillTo]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="726.8571428571429,87.42857142857143" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[In_Date]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-12, -12, 2904, 1740" Arguments="c:\users\winmbp\documents\uipath\extract data using anchor base-exercise resource\perfect match.pdf" FilePath="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrobat.exe" IconBase64="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" InformativeScreenshot="1594e998ced87130f7c601fac904b29a.png" Selector="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Perfect Match.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" Title="Perfect Match.pdf" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
